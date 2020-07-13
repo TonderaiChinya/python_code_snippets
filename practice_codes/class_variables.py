@@ -13,6 +13,7 @@ class Student:
 	def fullname(self):
 		return '{} {}'.format(self.studentName, self.studentSurname)
 
+
 std1 = Student('Tony', 'Clemz', 'Science')
 
 print(std1.fullname())
